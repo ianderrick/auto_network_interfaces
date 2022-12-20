@@ -7,7 +7,7 @@ import datetime
 try:
     import requests
 except ImportError:
-    # if not, install it using pip
+# if not, install it using pip
     import pip
     pip.main(['install', 'requests'])
     import requests
